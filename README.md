@@ -1,81 +1,10 @@
+![](./www/ab3682be-3207-41a8-b946-5426d169158c.jpg)
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# INTEREST <img src="man/figures/hex.png" width = "150" align="right" />
 
-INTEREST, acronym for **IN**teractive **T**ool for **E**xploring
-**RE**sults from **S**imulation s**T**udies, is an interactive web app
-developed using R and [`shiny`](https://shiny.rstudio.com/). It allows
-exploring results from simulation studies interactively.
+# INTEREST: INteractive Tool for Exploring REsults from Simulation sTudies
 
-<!-- badges: start -->
 
-[![AppVeyor Build
-Status](https://ci.appveyor.com/api/projects/status/github/ellessenne/interest?branch=master&svg=true)](https://ci.appveyor.com/project/ellessenne/interest)
-[![Travis-CI Build
-Status](https://travis-ci.org/ellessenne/interest.svg?branch=master)](https://travis-ci.org/ellessenne/interest)
-<!-- badges: end -->
+#### Use app online: __[www.shinyappstore.com/a/INTEREST](https://shinyappstore.com/a/INTEREST)__
 
-# Live demo
-
-A live demo of INTEREST can be found
-[here](https://interest.shinyapps.io/interest/). Please note that this
-version is still under active development: bug reports and feature
-requests are welcome.
-
-# Installation
-
-INTEREST can be installed locally as a standalone R package, by typing
-the following R commands in your R console:
-
-``` r
-# install.packages("remotes")
-remotes::install_github("ellessenne/interest")
-```
-
-This requires a working installation of [R](https://www.r-project.org/)
-and, preferably, [RStudio](https://www.rstudio.com/).
-
-# Launch application
-
-To launch INTEREST first load the `interest` R package:
-
-``` r
-library(interest)
-```
-
-Then, use the `interest()` function:
-
-``` r
-interest()
-```
-
-The app should now launch in your browser.
-
-# Workflow
-
-![](README_files/sirex-workflow.png)
-
-The workflow of INTERACT is simple:
-
-1.  Load your data and define variables representing point estimates,
-    standard errors, methods, and so on;
-2.  Performance measures are estimated automatically;
-3.  Tables and plots are produced automatically, and can be customised
-    and explored interactively;
-4.  Tables and plots can be exported for later use.
-
-# Additional material on INTEREST
-
-  - Slides on [`rsimsum`](https://ellessenne.github.io/rsimsum/) and
-    INTEREST presented at the 2019 useR\! conference
-    [\[here\]](https://github.com/ellessenne/rsimsum/blob/master/inst/Talks/ag-useR-2019.pdf)
-
-  - Slides to present SiReX (former name of INTEREST) at the Students’
-    Day, 38<sup>th</sup> Annual Conference of the International Society
-    for Clinical Biostatistics
-    [\[here\]](README_files/iscb38_slides.pdf)
-
-  - Poster at the 2017 Annual Conference of the Department of Health
-    Sciences, University of Leicester
-    [\[here\]](README_files/hs_poster.pdf)
+INTEREST, short for INteractive Tool for Exploring REsults from Simulation sTudies, is an interactive web application crafted using R and the Shiny framework. This tool offers a dynamic exploration of results derived from simulation studies, providing users with an engaging interface. Whether accessed through the web or as a standalone package, INTEREST simplifies the investigation of simulation study outcomes. Users can effortlessly upload tidy format datasets generated in R, Stata, SAS, SPSS, or comma-separated formats. The application automatically computes various performance measures, complete with Monte Carlo standard errors, presenting results in both tabular and graphical formats. INTEREST excels in enabling users to focus on simulation parameters and estimands of particular interest. Its workflow is straightforward: load data, define relevant variables, and let the tool generate automatic performance summaries, tables, and plots. INTEREST facilitates result sharing, allowing researchers to present detailed simulation outcomes, while readers can freely explore and interact with the data. The tool provides a range of customizable plots and tables, including barplots, point estimates vs standard errors plots, lolly plots, heatmaps, and more. Overall, INTEREST is a versatile and user-friendly tool that enhances the exploration and reporting of simulation study results.
